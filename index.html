@@ -7,19 +7,41 @@
     <title>PROJECTO 1</title>
 </head>
 <body>
-    <div id="fecha"></div>
-    <div id="frase"></div>
-    <div id="reloj"></div>
-
-
-    <section>
-        <a href="./img/iconocalendario.png" id="fechayhora">Calendario</a>
-        <a href="./img/iconotiempo.png" id="tiempo">Tiempo</a>
-        <a href="./img/iconobuscador.png" id="buscador">Buscador</a>
-        <a href="./img/iconocontraseña.png" id="contraseña">Contraseña</a>
+    <section class="tiempo">
+        <div id="fecha"></div>
+        <div id="frase"></div>
+        <div id="reloj"></div>
+    </section>
+   
+    <section class="contraseñas">
+        <button id="btnContraseña"> Generar Contraseña </button>
+        <input
+            id = "numeroCaracteres"
+            class="numeroCaracteres"
+            type = "number"
+            placeholder=" 12 "
+        />
+        <div id="mostrarContraseñas"></div>
     </section>
 
 
+    <!--<section class="botones">
+        <a href="fechayhora.html" id="btn_fechayhora" class="btn_fechayhora">
+            <img src=./img/iconocalendario.png alt= "fecha y hora" class="img_fechayhora" >
+        </a>
+        <a href="#" id="btn_buscador" class="btn_buscador">
+            <img src=./img/iconobuscador.png alt= "buscador" class="img_buscador" >
+        </a>
+        <a href="#" id="btn_tiempo" class="btn_tiempo">
+            <img src=./img/iconotiempo.png alt= "tiempo" class="img_tiempo" >
+        </a>
+        <a href="#" id="btn_contraseña" class="btn_contraseña">
+            <img src=./img/iconocontraseña.png alt= "contraseña" class="img_contraseña" >
+        </a>
+    </section>-->
+
+
     <script src="./JS/reloj.js"></script>
+    <script src="./JS/contraseña.js"></script>
 </body>
 </html>
