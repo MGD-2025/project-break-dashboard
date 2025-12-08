@@ -13,6 +13,8 @@
         <div id="reloj"></div>
     </section>
    
+    <hr>
+
     <section class="contraseñas">
         <button id="btnContraseña"> Generar Contraseña </button>
         <input
@@ -24,7 +26,29 @@
         <div id="mostrarContraseñas"></div>
     </section>
 
+    <hr>
 
+    <section class="enlaces">
+        <input 
+        id="nombrenlace"
+        class="nombrenlace"
+        type="text"
+        placeholder="Nombre del enlace"
+        />
+        <br>
+        <input
+        id="urlenlace"
+        class="urlenlace"
+        type="text"
+        placeholder="URL del enlace"
+        />
+        <br>
+        <button id="btnañadirenlace">Añadir Enlace </button>
+
+        <ul id="listaenlaces"></ul>
+        <p id="mesajeerror"></p>
+
+    </section>
     <!--<section class="botones">
         <a href="fechayhora.html" id="btn_fechayhora" class="btn_fechayhora">
             <img src=./img/iconocalendario.png alt= "fecha y hora" class="img_fechayhora" >
@@ -43,5 +67,6 @@
 
     <script src="./JS/reloj.js"></script>
     <script src="./JS/contraseña.js"></script>
+    <script src="./JS/enlaces.js"></script>
 </body>
 </html>
