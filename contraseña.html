@@ -3,9 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
     <title>CONTRASEÑAS</title>
 </head>
 <body>
+    <nav class="btncasa">
+        <a href="index.html" id="btn_casa" class="btn_casa">
+        <img src=./img/iconocasa.png alt= "Go home" class="img_casa" >
+        </a>
+    </nav>
+
+    <section class="contraseñas">
+        <h2>GENERA AQUÍ TU CONTRASEÑA</h2>
+        <button id="btnContraseña"> Generar Contraseña </button>
+        <input
+            id = "numeroCaracteres"
+            class="numeroCaracteres"
+            type = "number"
+            placeholder=" 12 "
+        />
+        <div id="mostrarContraseñas"></div>
+    </section>
     
+    <script src="./JS/contraseña.js"></script>
+
 </body>
 </html>

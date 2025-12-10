@@ -7,74 +7,70 @@
     <title>PROJECTO 1</title>
 </head>
 <body>
-    <section class="fechahora">
-        <div id="fecha"></div>
-        <div id="frase"></div>
-        <div id="reloj"></div>
-    </section>
-   
-    <hr>
+    <header class="masterContainer">
+        <section class="fechahora">
+            <div id="fecha"></div>
+            <div id="frase"></div>
+            <div id="reloj"></div>
+        </section>
+    <br>
+        <section class="contraseñas">
+            <h3 class="titlepass">Genera tu contraseña segura</h3>
+            <button id="btnContraseña"> Generar Contraseña </button>
+            <input
+                id = "numeroCaracteres"
+                class="numeroCaracteres"
+                type = "number"
+                placeholder=" 12 "
+            />
+            <div id="mostrarContraseñas"></div>
+        </section>
+    <br>
+        <section class="enlaces">
+            <h3 class="titlenlace">Introduce tu enlace</h3>
+            <input 
+            id="nombrenlace"
+            class="nombrenlace"
+            type="text"
+            placeholder="Nombre del enlace"
+            />
+            <br>
+            <input
+            id="urlenlace"
+            class="urlenlace"
+            type="text"
+            placeholder="URL del enlace"
+            />
+            <br>
+            <button id="btnañadirenlace">Añadir Enlace </button>
 
-    <section class="contraseñas">
-        <button id="btnContraseña"> Generar Contraseña </button>
-        <input
-            id = "numeroCaracteres"
-            class="numeroCaracteres"
-            type = "number"
-            placeholder=" 12 "
-        />
-        <div id="mostrarContraseñas"></div>
-    </section>
+            <ul id="listaenlaces"></ul>
+            <p id="mesajeerror"></p>
+        </section>
+    <br>
+        <section class="tiempo">
+            <div id="tiempoactual"></div>
+            <br>
+            <div id="tiempohoras"></div>
+        </section>
+    </header>
 
-    <hr>
-
-    <section class="enlaces">
-        <input 
-        id="nombrenlace"
-        class="nombrenlace"
-        type="text"
-        placeholder="Nombre del enlace"
-        />
-        <br>
-        <input
-        id="urlenlace"
-        class="urlenlace"
-        type="text"
-        placeholder="URL del enlace"
-        />
-        <br>
-        <button id="btnañadirenlace">Añadir Enlace </button>
-
-        <ul id="listaenlaces"></ul>
-        <p id="mesajeerror"></p>
-    </section>
-
-    <hr>
-
-    <section class="tiempo">
-        <div id="tiempoactual"></div>
-        <br>
-        <div id="tiempohoras"></div>
-    </section>
-
-    <!--
     <footer>
         <nav class="botones">
             <a href="fechayhora.html" id="btn_fechayhora" class="btn_fechayhora">
             <img src=./img/iconocalendario.png alt= "fecha y hora" class="img_fechayhora" >
             </a>
-            <a href="#" id="btn_buscador" class="btn_buscador">
+            <a href="enlaces.html" id="btn_buscador" class="btn_buscador">
             <img src=./img/iconobuscador.png alt= "buscador" class="img_buscador" >
             </a>
-            <a href="#" id="btn_tiempo" class="btn_tiempo">
+            <a href="tiempo.html" id="btn_tiempo" class="btn_tiempo">
             <img src=./img/iconotiempo.png alt= "tiempo" class="img_tiempo" >
             </a>
-            <a href="#" id="btn_contraseña" class="btn_contraseña">
+            <a href="contraseña.html" id="btn_contraseña" class="btn_contraseña">
             <img src=./img/iconocontraseña.png alt= "contraseña" class="img_contraseña" >
             </a>
         </nav>
-    </footer-->
-
+    </footer>
 
     <script src="./JS/reloj.js"></script>
     <script src="./JS/contraseña.js"></script>

@@ -3,9 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
     <title>ENLACES</title>
 </head>
 <body>
-    
+    <nav class="btncasa">
+        <a href="index.html" id="btn_casa" class="btn_casa">
+        <img src=./img/iconocasa.png alt= "Go home" class="img_casa" >
+        </a>
+    </nav>
+
+        <section class="enlaces">
+        <h3>Introduce tu enlace</h3>
+        <input 
+        id="nombrenlace"
+        class="nombrenlace"
+        type="text"
+        placeholder="Nombre del enlace"
+        />
+        <br>
+        <input
+        id="urlenlace"
+        class="urlenlace"
+        type="text"
+        placeholder="URL del enlace"
+        />
+        <br>
+        <button id="btnañadirenlace">Añadir Enlace </button>
+
+        <ul id="listaenlaces"></ul>
+        <p id="mesajeerror"></p>
+    </section>
+
+    <script src="./JS/enlaces.js"></script>
+
 </body>
 </html>
