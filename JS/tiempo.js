@@ -26,11 +26,11 @@ getWeather().then(data=> {
     const {condition:{text},condition:{icon}, temp_c, wind_kph, humidity,precip_mm }= data.current
     const template = `
         <div>
-            <article>
+            <article class="location">
                 <h3>${name}/${country}</h3>
                 <h3>${text}</h3>
             </article>
-            <section>
+            <section class="current">
                 <img src=${icon} alt='tiempo'/>
                 <p>Temperatura: ${temp_c}</p>
                 <p>Viento: ${wind_kph}</p>

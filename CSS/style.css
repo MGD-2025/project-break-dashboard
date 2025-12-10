@@ -72,6 +72,20 @@ body{
 	margin-bottom: 30px;
 	
 }
+.tiempo{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	background-color: aqua;
+	border-radius:5px;
+	width: auto;
+	
+}
+
 
 #fecha{
 	font-size: 30px;
@@ -119,8 +133,9 @@ body{
 	background-color:lightpink;
 	border-radius: 5px;
 	width: 370px;
-	height: auto;
+	height: 300px;
 	text-align: center;
+	overflow: auto;
 }
 
 .titlenlace{
@@ -149,6 +164,14 @@ body{
 	font-size: 20px;
 }
 
+#tiempohoras{
+	display: flex;
+}
 
+.location{
+	font-size: 20px;
+}
 
+.current{
 
+}
