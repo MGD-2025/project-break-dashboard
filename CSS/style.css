@@ -87,6 +87,7 @@ body{
 	background-color: lightblue;
 	border-radius:5px;
 	width: auto;
+	opacity: 0.8;
 	
 }
 
@@ -107,6 +108,7 @@ body{
 	border-radius: 5px;
 	width: 370px;
 	height: 200px;
+	opacity: 0.8;
 	
 	
 }
@@ -131,8 +133,6 @@ body{
 	font-weight: 300;
 }
 
-
-
 .enlaces{
 	background-color:lightpink;
 	border-radius: 5px;
@@ -140,6 +140,7 @@ body{
 	height: 300px;
 	text-align: center;
 	overflow: auto;
+	opacity: 0.8;
 }
 
 .titlenlace{
@@ -189,18 +190,22 @@ footer{
 .img_fechayhora{
 	width: 160px;
 	height: 125px;
+	opacity: 0.8;
 }
 .img_buscador{
 	width: 160px;
 	height: 125px;
+	opacity: 0.8;
 }
 .img_tiempo{
 	width: 160px;
 	height: 125px;
+	opacity: 0.8;
 }
 .img_contraseña{
 	width: 160px;
 	height: 125px;
+	opacity: 0.8;
 }
 
 .btn_fechayhora{
